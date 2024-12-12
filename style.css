@@ -17,7 +17,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header { 
     text-align: center;
   }
@@ -36,15 +36,15 @@
     display: flex;
 }
 .complete-todo__list,.completed-todo__list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .complete-todo__item,
 .completed-todo__item,.complete-todo__subtitle,.completed-todo__subtitle {
-    list-style:none;
+    list-style: none;
 }
 .row__task,.complete-todo__input,.completed-todo__input,.button{
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -137,16 +137,16 @@
 
 /* Edit Task */
 .complete-todo__input_text,.completed-todo__input_text {
-    display:none
+    display: none
 }
 
 .complete-todo__item_edit-mode .complete-todo__input_text,
 .complete-todo__item_edit-mode .completed-todo__input_text {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .complete-todo__item_edit-mode .complete-todo__label,
 .completed-todo__item_edit-mode .completed-todo__label {
-    display:none;
+    display: none;
 }
