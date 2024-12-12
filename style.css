@@ -30,7 +30,7 @@
 .label,.row__task,.complete-todo__input_text,.completed-todo__input_text {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add-todo__row {
     display: flex;
@@ -118,7 +118,7 @@
     width: 226px;
 }
 .complete-todo__input_text,.completed-todo__input_text  {
-    width: 226px
+    width: 226px;
 }
 .button__img {
     height: 2em;
@@ -131,19 +131,19 @@
 
 /* Completed */
 .completed-todo__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .complete-todo__input_text,.completed-todo__input_text {
-    display: none
+    display: none;
 }
 
 .complete-todo__item_edit-mode .complete-todo__input_text,
 .complete-todo__item_edit-mode .completed-todo__input_text {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .complete-todo__item_edit-mode .complete-todo__label,
