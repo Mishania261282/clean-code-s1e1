@@ -27,7 +27,9 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.label,.row__task,.complete-todo__input_text,.completed-todo__input_text {
+.label,.row__task,
+.complete-todo__input_text,
+.completed-todo__input_text {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -35,15 +37,21 @@
 .add-todo__row {
     display: flex;
 }
-.complete-todo__list,.completed-todo__list {
+.complete-todo__list,
+.completed-todo__list {
     margin: 0;
     padding: 0px;
 }
 .complete-todo__item,
-.completed-todo__item,.complete-todo__subtitle,.completed-todo__subtitle {
+.completed-todo__item,
+.complete-todo__subtitle,
+.completed-todo__subtitle {
     list-style: none;
 }
-.row__task,.complete-todo__input,.completed-todo__input,.button{
+.row__task,
+.complete-todo__input,
+.completed-todo__input,
+.button{
     outline: none;
 }
 .button {
@@ -59,7 +67,8 @@
     color: #3a3A3a;
 }
 /* Heading */
-.complete-todo__subtitle,.completed-todo__subtitle,
+.complete-todo__subtitle,
+.completed-todo__subtitle,
 .add-todo__label {
     color: #333;
     font-weight: 700;
@@ -69,7 +78,9 @@
     margin: 0;
     text-transform: uppercase;
 }
-.row__task,.complete-todo__input,.completed-todo__input {
+.row__task,
+.complete-todo__input,
+.completed-todo__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -81,7 +92,9 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
-.row__task:focus,.complete-todo__input:focus,.completed-todo__input:focus {
+.row__task:focus,
+.complete-todo__input:focus,
+.completed-todo__input:focus {
     color: #333;
 }
 
@@ -95,7 +108,8 @@
 }
 
 /* Task list */
-.complete-todo__item,.completed-todo__item {
+.complete-todo__item,
+.completed-todo__item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -104,20 +118,27 @@
     justify-content: space-between;
     align-items: center;
 }
-.complete-todo__input,.complete-todo__label,.completed-todo__input,.completed-todo__label,.button {
+.complete-todo__input,
+.complete-todo__label,
+.completed-todo__input,
+.completed-todo__label,
+.button {
     vertical-align: middle;
 }
 
-.complete-todo__input_checkbox,.completed-todo__input_checkbox  {
+.complete-todo__input_checkbox,
+.completed-todo__input_checkbox  {
     margin: 0 10px;
 }
-.complete-todo__label,.completed-todo__label {
+.complete-todo__label,
+.completed-todo__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.complete-todo__input_text,.completed-todo__input_text  {
+.complete-todo__input_text,
+.completed-todo__input_text  {
     width: 226px;
 }
 .button__img {
@@ -136,7 +157,8 @@
 }
 
 /* Edit Task */
-.complete-todo__input_text,.completed-todo__input_text {
+.complete-todo__input_text,
+.completed-todo__input_text {
     display: none;
 }
 
