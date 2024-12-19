@@ -169,6 +169,6 @@
 }
 
 .complete-todo__item_edit-mode .complete-todo__label,
-.completed-todo__item_edit-mode .completed-todo__label {
+.complete-todo__item_edit-mode .completed-todo__label {
     display: none;
 }
